@@ -36,14 +36,14 @@ const Hero = () => {
           <div className="mt-5" ref={el => textRefs.current[4] = el}>
             <a
               href="https://api.whatsapp.com/send?phone=918805601826&text=Hello%20%2C%20I%20want%20to%20hire%20you%20for%20my%20Website%20%2C%20can%20you%20schedule%20some%20dates%20%3F"
-              className="p-3 bg-blue-500 rounded text-white"
+              className="md:p-3 p-2 bg-blue-500 rounded text-white"
             >
               Chat With Me
             </a>
             <a
-              href="Shubham-Resume.pdf"
-              download="download"
-              className="p-3 border border-dark-400 bg-green-400 rounded-lg text-dark ml-3"
+              href="../public/img/Shubham CV.pdf"
+              download="Shubham-CV"
+              className="md:p-3 p-2 w-20border border-dark-400 bg-green-400 rounded-lg text-dark ml-3"
             >
               Download CV
             </a>
@@ -64,8 +64,8 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="mt-4 md:mt-0 md:ml-20 ml-7 ">
-          <img src="../public/img/shubham.img.jpg" className='h-96 rounded-2xl  w-auto' alt="Profile" ref={imgRef} />
+        <div className="md:ml-60 hidden md:block md:w-72">
+          <img src="../public/img/pic.png" className='rounded-lg  h-96 w-auto' alt="Profile" ref={imgRef} />
         </div>
       </div>
       <hr className='md:mt-25' />

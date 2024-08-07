@@ -6,7 +6,7 @@ const Aboutme = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-center text-3xl md:text-4xl underline font-semibold text-blue-500 mb-10">About Me</h2>
         <div className="md:grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="md:mx-10 ml-16">
+          <div className="md:mx-20 ml-3">
             {/* Image */}
             <img src="../public/img/shubham.img.jpg" className="rounded-lg  h-96 w-auto" alt="Skills" />
 
@@ -41,9 +41,9 @@ const Aboutme = () => {
               </div>
               <div className="flex justify-start mt-4">
                 <a
-                  href="Shubham-Resume.pdf"
+                  href="../public/img/Shubham CV.pdf"
                   className="p-2 bg-blue-500 rounded-lg mx-4 md:mx-10 text-white"
-                  download="Shubham-Resume"
+                  download="Shubham-CV"
                 >
                   Download CV
                 </a>
